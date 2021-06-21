@@ -1,0 +1,3 @@
+#Instructions to Use This Template
+
+First, clone this repository to your device. Then create a .env file with values of `mongo_client_url`, `SECRET_KEY`, `ALGORITHM`, & `ACCESS_TOKEN_EXPIRE_MINUTES`. Set the `mongo_client_url` to your MongoDB databse url, run `openssl rand -hex 32` for the `SECRET_KEY`, set the `ALGORITHM` to `HS256`, & set the `ACCESS_TOKEN_EXPIRE_MINUTES` to however many minutes you want the jwt auth token to expire in. Finally, run the server with uvicorn.
